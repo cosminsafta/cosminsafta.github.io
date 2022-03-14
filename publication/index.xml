@@ -1,54 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Academic</title>
-    <link>https://example.com/publication/</link>
-      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Cosmin Safta</title>
+    <link>https://cosminsafta.github.io/publication/</link>
+      <atom:link href="https://cosminsafta.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://example.com/publication/</link>
+      <link>https://cosminsafta.github.io/publication/</link>
     </image>
     
     <item>
       <title>Forecasting Multi-Wave Epidemics Through Bayesian Inference</title>
-      <link>https://example.com/publication/blonigan-2021/</link>
+      <link>https://cosminsafta.github.io/publication/blonigan-2021/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/blonigan-2021/</guid>
+      <guid>https://cosminsafta.github.io/publication/blonigan-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using computational singular perturbation as a diagnostic tool in ODE and DAE systems: a case study in heterogeneous catalysis</title>
-      <link>https://example.com/publication/diaz-ibarra-2021/</link>
+      <link>https://cosminsafta.github.io/publication/diaz-ibarra-2021/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/diaz-ibarra-2021/</guid>
+      <guid>https://cosminsafta.github.io/publication/diaz-ibarra-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mesh-based Graph Convolutional Neural Networks For Modeling Materials with Microstructure</title>
-      <link>https://example.com/publication/frankel-2022/</link>
+      <link>https://cosminsafta.github.io/publication/frankel-2022/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/frankel-2022/</guid>
+      <guid>https://cosminsafta.github.io/publication/frankel-2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The predictive skill of convolutional neural networks models for disease forecasting</title>
-      <link>https://example.com/publication/lee-2021/</link>
+      <link>https://cosminsafta.github.io/publication/lee-2021/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/lee-2021/</guid>
+      <guid>https://cosminsafta.github.io/publication/lee-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily Forecasting of Regional Epidemics of Coronavirus Disease with Bayesian Uncertainty Quantification, United States</title>
+      <link>https://cosminsafta.github.io/publication/lin-2021/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/lin-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Survey of Constrained Gaussian Process Regression: Approaches and Implementation Challenges</title>
+      <link>https://cosminsafta.github.io/publication/swiler-2020/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/swiler-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterization of partially observed epidemics through Bayesian inference: Application to COVID-19</title>
+      <link>https://cosminsafta.github.io/publication/safta-2020/</link>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/safta-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bifidelity Gradient-Based Approach for Nonlinear Well-Logging Inverse Problems</title>
+      <link>https://cosminsafta.github.io/publication/lu-2020/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/lu-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulated production of OH, HO2, CH2O, and CO2 during dilute fuel oxidation can predict 1st-stage ignition delays</title>
+      <link>https://cosminsafta.github.io/publication/buras-2020/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/buras-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publication/example/</link>
+      <link>https://cosminsafta.github.io/publication/example/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/example/</guid>
+      <guid>https://cosminsafta.github.io/publication/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
