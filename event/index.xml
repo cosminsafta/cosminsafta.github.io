@@ -39,5 +39,20 @@
 </description>
     </item>
     
+    <item>
+      <title>Functional Tensor Network Approximations for Earth System Models</title>
+      <link>https://cosminsafta.github.io/talk/functional-tensor-network-approximations-for-earth-system-models/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/talk/functional-tensor-network-approximations-for-earth-system-models/</guid>
+      <description>&lt;p&gt;I am contributing to the following presentations at this conference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kelli McCoy, Cosmin Safta, Roger Ghanem, &lt;strong&gt;Manifold-Based Optimization for Constrained Trajectoriess&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Aniket Jivani, Xun Huan, Cosmin Safta, Beckett Y. Zhou, Nicolas R. Gauger, &lt;strong&gt;Uncertainty Quantification for
+Random Field Quantities Using Multifidelity Karhunen-Loeve Expansions&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Arun Hegde, Elan Weiss, Wolfgang Windl, Habib Najm, Cosmin Safta, &lt;strong&gt;Bayesian Calibration of Interatomic Potential Models for Binary Alloys&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
