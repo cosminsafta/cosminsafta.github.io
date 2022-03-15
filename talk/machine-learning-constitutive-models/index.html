@@ -64,10 +64,10 @@
   
     
   
-  <meta name="description" content="Distinguished Member of Technical Staff" />
+  <meta name="description" content="Machine-learned models that capture the microstructure impact on mechanical outcomes" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cosminsafta.github.io/categories/" />
+  <link rel="alternate" hreflang="en-us" href="https://cosminsafta.github.io/talk/machine-learning-constitutive-models/" />
 
   
   
@@ -274,8 +274,6 @@
   
 
   
-    <link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="Cosmin Safta" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -284,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://cosminsafta.github.io/categories/" />
+  <link rel="canonical" href="https://cosminsafta.github.io/talk/machine-learning-constitutive-models/" />
 
   
   
@@ -310,14 +308,18 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Cosmin Safta" />
-  <meta property="og:url" content="https://cosminsafta.github.io/categories/" />
-  <meta property="og:title" content="Categories | Cosmin Safta" />
-  <meta property="og:description" content="Distinguished Member of Technical Staff" /><meta property="og:image" content="https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://cosminsafta.github.io/talk/machine-learning-constitutive-models/" />
+  <meta property="og:title" content="Machine learning constitutive models | Cosmin Safta" />
+  <meta property="og:description" content="Machine-learned models that capture the microstructure impact on mechanical outcomes" /><meta property="og:image" content="https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2022-03-14T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2021-09-26T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2021-09-26T00:00:00&#43;00:00">
   
 
   
@@ -325,6 +327,44 @@
 
 
   
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cosminsafta.github.io/talk/machine-learning-constitutive-models/"
+  },
+  "name": "Machine learning constitutive models",
+  
+  "location": {
+    "@type": "Place",
+    "name": "San Diego, CA"
+  },
+  
+  
+  "startDate": "2021-09-26T00:00:00Z",
+  
+  "endDate": "2021-09-26T00:00:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Cosmin Safta"
+  },
+  
+  "description": "Machine-learned models that capture the microstructure impact on mechanical outcomes"
+}
+</script>
+
+  
+
+  
 
   
 
@@ -332,11 +372,11 @@
 
 
 
-  <title>Categories | Cosmin Safta</title>
+  <title>Machine learning constitutive models | Cosmin Safta</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="4517c0e256bf6a457593cd1b432ae869" >
 
   
   
@@ -716,7 +756,9 @@
     
     
 
-    
+    <div class="pub">
+
+  
 
 
 
@@ -734,53 +776,13 @@
   
   
   
-    
-  
-<div class="universal-wrapper pt-3">
-  <h1>Categories</h1>
+<div class="article-container pt-3">
+  <h1>Machine learning constitutive models</h1>
 
   
 
-  
-</div>
-
-
-
-<div class="universal-wrapper">
-  
-
-  
   
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/category/minisimposium/" >minisimposium</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
 
 
 <div class="article-metadata">
@@ -789,14 +791,6 @@
   
 
   
-  <span class="article-date">
-    
-    
-      
-    
-    Mar 14, 2022
-  </span>
-  
 
   
 
@@ -812,96 +806,192 @@
 
 </div>
 
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Traditional simulations of complex mechanical deformation are technologically crucial and computationally expensive. Developing comparably accurate models with lower computational cost can enable more robust design and uncertainty quantification, as well as exhaustive structure-property exploration. Currently, high-throughput experimental techniques and microscale simulators can produce quantities of data that overwhelm traditional constitutive modeling methods and can provide sufficient data to train neural networks. As a modeling technique, neural networks are flexible in that their graph-like structure can be rearranged and functions of their nodes can be adapted to suit particular applications, such as image processing and time integration. On the other hand, Gaussian process models can outperform neural networks in the data limited regime. In this talk, I will discuss: how we construct input spaces and architectures to capture how microstructure affects mechanical outcomes given observations of the initial microstructure; how we draw upon classical constitutive theory to make predictions of the individual stress response that satisfy fundamental physical constraints, and, how we represent the time evolution of inelastic materials.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Sep 26, 2021 12:00 AM &mdash; 12:00 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://mmldt.eng.ucsd.edu/home" target="_blank" rel="noopener">
+            Mechanistic Machine Learning and Digital Twins for Computational Science, Engineering &amp; Technology
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">San Diego, CA</div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
       
     </div>
 
     
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
 
   
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://cosminsafta.github.io"><img class="avatar mr-3 avatar-square" src="/authors/admin/avatar_hu535661bce2c742bf7a0f6a055ac0b6d1_1360090_270x270_fill_q75_lanczos_center.jpg" alt="Cosmin Safta"></a>
     
 
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://cosminsafta.github.io">Cosmin Safta</a></h5>
+      <h6 class="card-subtitle">Distinguished Member of Technical Staff</h6>
+      <p class="card-text">My research interests include uncertainty quantification, machine learning, and statistics.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=pQ3nO-4AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/cosmin-safta-7b463013/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/category/white-paper/" >white paper</a>
     </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
+  </div>
 
 
-<div class="article-metadata">
 
-  
-  
 
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Apr 1, 2021
-  </span>
-  
 
-  
 
-  
 
-  
-  
-  
-  
 
-  
-  
 
-</div>
 
-      
-    </div>
 
-    
+
+
+
+
+
+
 
   </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-
-  
-
 </div>
   </div>
 
