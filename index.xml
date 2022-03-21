@@ -44,6 +44,24 @@
     </item>
     
     <item>
+      <title>Graph Neural Network Models</title>
+      <link>https://cosminsafta.github.io/project/gcnn/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/project/gcnn/</guid>
+      <description>&lt;p&gt;We develop graph-based convolutional neural networks to provide efficient homogenized surrogate and full-field models for a wide class of physical problems that involve complex initial states. Graph neural networks have advantages over the more established neural network architectures that have been applied to physical problems. Specifically, we will embed spatially invariant and conserving feature representations and filters into graph architectures. This aspect will reduce the raw high-fidelity mesh inputs to more compact, low-rank manifolds since the symmetries will constrain the manifolds of features related to the chosen outputs. More broadly, our machine learning approach will be guided by expert knowledge from a multitude of more mature fields of mathematical and physical science, including signal processing and representation theory. This guided but still general learning framework should be more generalizable and more interpretable than standard approaches.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensor and Bayesian Framework for Machine Learning</title>
+      <link>https://cosminsafta.github.io/project/fastmath/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/project/fastmath/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://scidac5-fastmath.lbl.gov/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FASTMath&lt;/a&gt; SciDAC Institute develops and deploys scalable mathematical algorithms and software tools for reliable simulation of complex physical phenomena and collaborates with application scientists to ensure the usefulness and applicability of FASTMath technologies. Our work focuses on the development of functional tensor network surrogates to address challenges related to sparse training data, nonlinear models, and high-dimensionality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Co-organizing minisymposium on &#34;Incorporating fundamental principles in innovative machine learning models of physics&#34; at WCCM22</title>
       <link>https://cosminsafta.github.io/news/2021-03-02/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
@@ -383,19 +401,6 @@ $$&lt;/p&gt;
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://cosminsafta.github.io/publication/cheng-2018/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://cosminsafta.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://cosminsafta.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
     </item>
     
     <item>
