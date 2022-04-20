@@ -396,6 +396,14 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Exploring the Interplay of Resilience and Energy Consumption for a Task-Based Partial Differential Equations Preconditioner</title>
+      <link>https://cosminsafta.github.io/publication/rizzi-2017a/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/rizzi-2017a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Compressive Sensing with Cross-Validation and Stop-Sampling for Sparse Polynomial Chaos Expansions</title>
       <link>https://cosminsafta.github.io/publication/huan-2018/</link>
       <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
@@ -420,10 +428,34 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>A resilient domain decomposition polynomial chaos solver for uncertain elliptic PDEs</title>
+      <link>https://cosminsafta.github.io/publication/mycek-2017a/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/mycek-2017a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bayesian calibration of terrestrial ecosystem models: a study of advanced Markov chain Monte Carlo methods</title>
       <link>https://cosminsafta.github.io/publication/lu-2017/</link>
       <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
       <guid>https://cosminsafta.github.io/publication/lu-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partial differential equations preconditioner resilient to soft and hard faults</title>
+      <link>https://cosminsafta.github.io/publication/rizzi-2017b/</link>
+      <pubDate>Sun, 29 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/rizzi-2017b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete A Priori Bounds for the Detection of Corrupted PDE Solutions in Exascale Computations</title>
+      <link>https://cosminsafta.github.io/publication/mycek-2017b/</link>
+      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/mycek-2017b/</guid>
       <description></description>
     </item>
     
