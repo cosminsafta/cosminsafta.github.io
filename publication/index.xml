@@ -220,5 +220,29 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Efficient Uncertainty Quantification in Stochastic Economic Dispatch</title>
+      <link>https://cosminsafta.github.io/publication/safta-2016a/</link>
+      <pubDate>Thu, 06 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/safta-2016a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference of reaction rate parameters based on summary statistics from experiments</title>
+      <link>https://cosminsafta.github.io/publication/khalil-2016/</link>
+      <pubDate>Thu, 18 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/khalil-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncertainty quantification in LES of channel flow</title>
+      <link>https://cosminsafta.github.io/publication/safta-2016b/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/safta-2016b/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
