@@ -64,10 +64,10 @@
   
     
   
-  <meta name="description" content="Distinguished Member of Technical Staff" />
+  <meta name="description" content="This paper describes an efficient reverse-mode differentiation algorithm for contraction op- erations for arbitrary and unconventional tensor network topologies. The approach lever- ages the tensor contraction tree of Evenbly and Pfeifer (2014), which provides an instruction set for the contraction sequence of a network. We show that this tree can be efficiently leveraged for differentiation of a full tensor network contraction using a recursive scheme that exploits (1) the bilinear property of contraction and (2) the property that trees have a single path from root to leaves. While differentiation of tensor-tensor contraction is already possible in most automatic differentiation packages, we show that exploiting these two ad- ditional properties in the specific context of contraction sequences can improve efficiency. Following a description of the algorithm and computational complexity analysis, we inves- tigate its utility for gradient-based supervised learning for low-rank function recovery and for fitting real-world unstructured datasets. We demonstrate improved performance over alternating least-squares optimization approaches and the capability to handle heteroge- neous and arbitrary tensor network formats. When compared to alternating minimization algorithms, we find that the gradient-based approach requires a smaller oversampling ratio (number of samples compared to number model parameters) for recovery. This increased efficiency extends to fitting unstructured data of varying dimensionality and when em- ploying a variety of tensor network formats. Here, we show improved learning using the hierarchical Tucker method over the tensor-train in high-dimensional settings on a number of benchmark problems." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cosminsafta.github.io/publication-type/2/" />
+  <link rel="alternate" hreflang="en-us" href="https://cosminsafta.github.io/publication/safta-2022/" />
 
   
   
@@ -274,8 +274,6 @@
   
 
   
-    <link rel="alternate" href="/publication-type/2/index.xml" type="application/rss+xml" title="Cosmin Safta" />
-  
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -284,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://cosminsafta.github.io/publication-type/2/" />
+  <link rel="canonical" href="https://cosminsafta.github.io/publication/safta-2022/" />
 
   
   
@@ -310,33 +308,80 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Cosmin Safta" />
-  <meta property="og:url" content="https://cosminsafta.github.io/publication-type/2/" />
-  <meta property="og:title" content="2 | Cosmin Safta" />
-  <meta property="og:description" content="Distinguished Member of Technical Staff" /><meta property="og:image" content="https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://cosminsafta.github.io/publication/safta-2022/" />
+  <meta property="og:title" content="Reverse-mode differentiation in arbitrary tensor network format: with application to supervised learning | Cosmin Safta" />
+  <meta property="og:description" content="This paper describes an efficient reverse-mode differentiation algorithm for contraction op- erations for arbitrary and unconventional tensor network topologies. The approach lever- ages the tensor contraction tree of Evenbly and Pfeifer (2014), which provides an instruction set for the contraction sequence of a network. We show that this tree can be efficiently leveraged for differentiation of a full tensor network contraction using a recursive scheme that exploits (1) the bilinear property of contraction and (2) the property that trees have a single path from root to leaves. While differentiation of tensor-tensor contraction is already possible in most automatic differentiation packages, we show that exploiting these two ad- ditional properties in the specific context of contraction sequences can improve efficiency. Following a description of the algorithm and computational complexity analysis, we inves- tigate its utility for gradient-based supervised learning for low-rank function recovery and for fitting real-world unstructured datasets. We demonstrate improved performance over alternating least-squares optimization approaches and the capability to handle heteroge- neous and arbitrary tensor network formats. When compared to alternating minimization algorithms, we find that the gradient-based approach requires a smaller oversampling ratio (number of samples compared to number model parameters) for recovery. This increased efficiency extends to fitting unstructured data of varying dimensionality and when em- ploying a variety of tensor network formats. Here, we show improved learning using the hierarchical Tucker method over the tensor-train in high-dimensional settings on a number of benchmark problems." /><meta property="og:image" content="https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2022-03-09T00:00:00&#43;00:00" />
+      <meta
+        property="article:published_time"
+        content="2022-05-01T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2021-03-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://cosminsafta.github.io/publication/safta-2022/"
+  },
+  "headline": "Reverse-mode differentiation in arbitrary tensor network format: with application to supervised learning",
+  
+  "datePublished": "2022-05-01T00:00:00Z",
+  "dateModified": "2021-03-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "A.A. Gorodetsky"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cosmin Safta",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "This paper describes an efficient reverse-mode differentiation algorithm for contraction op- erations for arbitrary and unconventional tensor network topologies. The approach lever- ages the tensor contraction tree of Evenbly and Pfeifer (2014), which provides an instruction set for the contraction sequence of a network. We show that this tree can be efficiently leveraged for differentiation of a full tensor network contraction using a recursive scheme that exploits (1) the bilinear property of contraction and (2) the property that trees have a single path from root to leaves. While differentiation of tensor-tensor contraction is already possible in most automatic differentiation packages, we show that exploiting these two ad- ditional properties in the specific context of contraction sequences can improve efficiency. Following a description of the algorithm and computational complexity analysis, we inves- tigate its utility for gradient-based supervised learning for low-rank function recovery and for fitting real-world unstructured datasets. We demonstrate improved performance over alternating least-squares optimization approaches and the capability to handle heteroge- neous and arbitrary tensor network formats. When compared to alternating minimization algorithms, we find that the gradient-based approach requires a smaller oversampling ratio (number of samples compared to number model parameters) for recovery. This increased efficiency extends to fitting unstructured data of varying dimensionality and when em- ploying a variety of tensor network formats. Here, we show improved learning using the hierarchical Tucker method over the tensor-train in high-dimensional settings on a number of benchmark problems."
+}
+</script>
+
+  
+
+  
+
   
 
   
 
 
 
-  
-
-  
 
 
-
-
-
-  <title>2 | Cosmin Safta</title>
+  <title>Reverse-mode differentiation in arbitrary tensor network format: with application to supervised learning | Cosmin Safta</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="186e74e472a1386c477d9c7d9be50ef0" >
 
   
   
@@ -725,6 +770,17 @@
 
 
 
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
 
 
 
@@ -733,72 +789,65 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1>Reverse-mode differentiation in arbitrary tensor network format: with application to supervised learning</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>2</h1>
-
-  
-
-  
-</div>
 
 
-
-<div class="universal-wrapper">
-  
+<div class="article-metadata">
 
   
   
+  
+  
+  <div>
     
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/safta-2016b/" >Uncertainty quantification in LES of channel flow</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
 
   <span >
+      A.A. Gorodetsky</span>, <span >
       C. Safta</span>, <span >
-      M. Blaylock</span>, <span >
-      J. Templeton</span>, <span >
-      S. Domino</span>, <span >
-      K. Sargsyan</span>, <span >
-      H.N. Najm</span>
-      </div>
+      J.D. Jakeman</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
       
-    </div>
+    
+    March, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
 
     
-    <div class="btn-links">
-      
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
 
 
 
@@ -813,8 +862,8 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/safta-2016b/cite.bib">
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/safta-2022/cite.bib">
   Cite
 </a>
 
@@ -830,175 +879,96 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1002/fld.4272" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/http://jmlr.org/papers/v23/21-0225.html" target="_blank" rel="noopener">
   DOI
 </a>
 
 
 
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
 </div>
 
-  
-    
-
-
-
-
-
-
 
   
+</div>
 
 
 
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/sargsyan-2015/" >Fault Resilient Domain Decomposition Preconditioner for PDEs</a>
-    </div>
+  <div class="article-container">
 
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">This paper describes an efficient reverse-mode differentiation algorithm for contraction op- erations for arbitrary and unconventional tensor network topologies. The approach lever- ages the tensor contraction tree of Evenbly and Pfeifer (2014), which provides an instruction set for the contraction sequence of a network. We show that this tree can be efficiently leveraged for differentiation of a full tensor network contraction using a recursive scheme that exploits (1) the bilinear property of contraction and (2) the property that trees have a single path from root to leaves. While differentiation of tensor-tensor contraction is already possible in most automatic differentiation packages, we show that exploiting these two ad- ditional properties in the specific context of contraction sequences can improve efficiency. Following a description of the algorithm and computational complexity analysis, we inves- tigate its utility for gradient-based supervised learning for low-rank function recovery and for fitting real-world unstructured datasets. We demonstrate improved performance over alternating least-squares optimization approaches and the capability to handle heteroge- neous and arbitrary tensor network formats. When compared to alternating minimization algorithms, we find that the gradient-based approach requires a smaller oversampling ratio (number of samples compared to number model parameters) for recovery. This increased efficiency extends to fitting unstructured data of varying dimensionality and when em- ploying a variety of tensor network formats. Here, we show improved learning using the hierarchical Tucker method over the tensor-train in high-dimensional settings on a number of benchmark problems.</p>
+    
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      K. Sargsyan</span>, <span >
-      F. Rizzi</span>, <span >
-      P. Mycek</span>, <span >
-      C. Safta</span>, <span >
-      K. Morris</span>, <span >
-      H.N. Najm</span>, <span >
-      O. Le Maitre</span>, <span >
-      O. Knio</span>, <span >
-      B. Debusschere</span>
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
       </div>
-      
+      <div class="col-md-1"></div>
     </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/sargsyan-2015/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1137/15M1014474" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
+    <div class="d-md-none space-below"></div>
     
 
-  </div>
-  <div class="ml-3">
     
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/safta-2015a/" >Global sensitivity analysis, probabilistic calibration, and predictive assessment for the data assimilation linked ecosystem carbon model</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      C. Safta</span>, <span >
-      D. Ricciuto</span>, <span >
-      K. Sargsyan</span>, <span >
-      D. Debusschere</span>, <span >
-      H.N. Najm</span>, <span >
-      M. Williams</span>, <span >
-      P.E. Thornton</span>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Journal of Machine Learning Research</em></div>
+        </div>
       </div>
-      
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
-    <div class="btn-links">
-      
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
 
 
 
@@ -1009,10 +979,6 @@
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/safta-2015a/cite.bib">
-  Cite
-</a>
 
 
 
@@ -1023,515 +989,8 @@
 
 
 
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.5194/gmd-8-1899-2015" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
 
   </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/safta-2015b/" >Hybrid discrete/continuum algorithms for stochastic reaction networks</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      C. Safta</span>, <span >
-      K. Sargsyan</span>, <span >
-      D. Debusschere</span>, <span >
-      H.N. Najm</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/safta-2015b/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jcp.2014.10.026" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/safta-2014a/" >Probabilistic Methods for Sensitivity Analysis and Calibration in the NASA Challenge Problem</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      C. Safta</span>, <span >
-      K. Sargsyan</span>, <span >
-      H.N. Najm</span>, <span >
-      K. Chowdhary</span>, <span >
-      B. Debusschere</span>, <span >
-      L.P. Swiler</span>, <span >
-      M.S. Eldred</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/safta-2014a/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.2514/1.I010256" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/kedia-2014/" >A second-order coupled immersed boundary-SAMR construction for chemically reacting flow over a heat-conducting Cartesian grid-conforming solid</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      K.S. Kedia</span>, <span >
-      C. Safta</span>, <span >
-      J. Ray</span>, <span >
-      H.N. Najm</span>, <span >
-      A.F. Ghoniem</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/kedia-2014/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jcp.2014.04.019" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/sargsyan-2014/" >Dimensionality Reduction for Complex Models via Bayesian Compressive Sensing</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      K. Sargsyan</span>, <span >
-      C. Safta</span>, <span >
-      H.N. Najm</span>, <span >
-      B.J. Debusschere</span>, <span >
-      D. Ricciuto</span>, <span >
-      P. Thornton</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/sargsyan-2014/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1615/Int.J.UncertaintyQuantification.2013006821" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/najm-2014/" >Data-free Inference of Uncertain Parameters in Chemical Models</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      H.N. Najm</span>, <span >
-      R.D. Berry</span>, <span >
-      C. Safta</span>, <span >
-      K. Sargsyan</span>, <span >
-      B.J. Debusschere</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/najm-2014/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1615/Int.J.UncertaintyQuantification.2013005679" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-
-  
-<nav class="mt-1">
-  <ul class="pagination justify-content-center">
-    
-    <li class="page-item"><a class="page-link" href="/publication-type/2/page/3/">&laquo;</a></li>
-    
-    
-  </ul>
-</nav>
-
-
 </div>
   </div>
 
