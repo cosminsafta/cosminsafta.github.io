@@ -5,12 +5,20 @@
     <link>https://cosminsafta.github.io/</link>
       <atom:link href="https://cosminsafta.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Cosmin Safta</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cosminsafta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Cosmin Safta</title>
       <link>https://cosminsafta.github.io/</link>
     </image>
+    
+    <item>
+      <title>Deep learning and multi-level featurization of graph representations of microstructural data</title>
+      <link>https://cosminsafta.github.io/publication/jones-2023/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://cosminsafta.github.io/publication/jones-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine learning constitutive models of inelastic materials with microstructure</title>
